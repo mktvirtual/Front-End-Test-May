@@ -1,0 +1,23 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	background-image: url('imgs/bg.jpg');
+	background-repeat: repeat;
+}
+.cont{
+	width: 995px;
+	margin: 0px auto;
+}
+header{
+	margin-top: 45px;
+	margin-bottom: 50px;
+}
+header ul li{
+	display: inline;
+	list-style: none;
+}

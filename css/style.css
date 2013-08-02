@@ -1,0 +1,294 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+body{
+	background-image: url('../imgs/bg.jpg');
+	background-repeat: repeat;
+}
+.cont{
+	width: 995px;
+	margin: 0px auto;
+}
+.row{
+	width: 995px;
+}
+.clear{
+	clear: both;
+}
+h1.lorem-title{
+	font-size: 26px;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	text-shadow: 1px 1px 1.5px rgba(0, 1, 1, 0.75);
+	text-transform: uppercase;
+}
+h2.lorem-subtitle{
+	font-size: 20px;
+	margin-bottom: 16px;
+	font-weight: normal;
+}
+hr{
+	position: relative;
+	bottom: -20px;
+}
+hr.title-r{
+	width: 400px;
+	float: right;
+}
+hr.title-l{
+	width: 400px;
+	float: left;
+}
+/* ====  Header  ==== */
+header{
+	margin-top: 45px;
+	margin-bottom: 50px;
+}
+header #logo{
+	float: left;
+}
+header nav{
+	float: left;
+	margin: 0px 25px 0px 37px;
+}
+header nav a{
+	color: #fff;
+}
+header ul li{
+	display: inline-block;
+	list-style: none;
+	width: 117px;
+	height: 29px;
+	background-image: url('../imgs/bt_nav.png');
+	margin-right: 18px;
+	text-align: center;
+	line-height: 27px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+header ul li:hover{
+	opacity: 0.9;
+}
+header ul li.ativo{	
+	background: #1f1f1f;
+	border-radius: 5px;
+}
+header input{
+	width: 153px;
+	height: 26px;
+	border: solid 1px #cbcbcb;
+	border-radius: 5px;
+	padding: 3px;
+	color: #2e2e2e;
+}
+header input[type=submit]{
+	width: 82px;
+	height: 26px;
+	background-color: #1f1f1f;
+	color: #fff;
+	border: none;
+}
+/* ====  Slider  ===== */
+#slider{
+	width: 995px;
+	height: 317px;
+	overflow: hidden;
+}
+.pager{
+	width: 995px;
+	height: 30px;
+	background-color: #1f1f1f;
+}
+/* ====  Lorem X  ==== */
+#loremx p{
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+#loremx p span{
+	color: #57aea1;
+}
+#loremx div,
+#loremx .left{
+	float: left;
+	width: 393px;
+}
+#loremx .right{
+	float: right;
+}
+/* ====  Lorem y  ==== */
+#loremy .post{
+	width: 147px;
+	height: 203px;
+	font-size: 10.94px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 35px;
+}
+#loremy .post:last-child{
+	margin-right: 0px;
+}
+#loremy .post h4{
+	font-weight: normal;
+	background-color: #222121;
+	color: #fff;
+	border-radius: 5px 5px 0px 0px;
+	text-align: center;
+	padding: 2px 0px;
+}
+#loremy img{
+	margin-bottom: 5px;
+}
+#loremy .more a{
+	color: #fff;
+}
+#loremy .more{
+	width: 117px;
+	height: 29px;
+	margin-top: 10px;
+	line-height: 27px;
+	text-align: center;
+	color: #fff;
+	font-size: 11.94px;
+	background-image: url('../imgs/bt_nav.png');
+}
+#loremy .more:hover{
+	opacity: 0.9;
+}
+/* ====  Lorem W  ==== */
+#loremw .post{
+	width: 229px;
+	height: 309px;
+	font-size: 9.98px;
+	float: left;
+	margin-right: 26px;
+}
+#loremw .post:last-child{
+	margin-right: 0px;
+}
+#loremw .post h4{
+	font-size: 11.98px;
+	font-weight: normal;
+	background-color: #222121;
+	color: #fff;
+	border-radius: 5px 5px 0px 0px;
+	text-align: center;
+	padding: 2px 0px;
+}
+#loremw .post p{
+	text-align: justify;
+	margin-top: 3px;
+}
+#loremw .views{
+	float: left;
+	width: 98px;
+	height: 30px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #d9cb9e;
+	font-size: 11.98px;
+	padding: 10px;
+}
+#loremw .views p{
+	margin-top: -3px;
+	text-align: center;
+}
+#loremw .views .icon{
+	background: url('../imgs/icons_bts.png') no-repeat 0 -3px; width: 16px; height: 10px;
+	float: left;
+}
+#loremw .date{
+	float: left;
+	width: 130px;
+	height: 30px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #d9cb9e;
+	font-size: 11.98px;
+	padding: 7px 10px;
+	margin-left: 1px;
+}
+#loremw .date p{
+	text-align: center;
+	margin-top: -1px;
+}
+#loremw .date .icon{
+	background: url('../imgs/icons_bts.png') no-repeat -28px 0; width: 16px; height: 16px;
+	float: left;
+}
+/* ====  Footer  ==== */
+footer{
+	width: 100%;
+	height: 320px;
+	margin-top: 45px;
+	background-image: url('../imgs/bg_footer.jpg');
+	background-repeat: repeat;
+	padding-top: 32px;
+}
+footer .left{
+	width: 560px;
+	height: 222px;
+	float: left;
+}
+footer .right{
+	width: 235px;
+	height: 222px;
+	float: right;
+}
+footer h3{
+	font-size: 17px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+footer .post .title{
+	font-size: 11px;
+	color: #2a9f90;
+	text-decoration: underline;
+}
+footer .post p{
+	color: #fff;
+	font-size: 11px;
+}
+footer .post a{
+	color: #fff;
+	font-size: 11px;
+	text-decoration: underline;
+}
+footer input,
+footer textarea{
+	color: #303030;
+	width: 235px;
+	height: 27px;
+	font-size: 11px;
+	line-height: 27px;
+	padding-left: 8px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 2px;
+}
+footer textarea{
+	height: 87px;
+	resize: none;
+}
+footer input[type=submit]{
+	width: 130px;
+	color: #fff;
+	float: right;
+	font-size: 12px;
+	background-color: #d9cb9e;
+}
+footer .ass{
+	float: left;
+}
