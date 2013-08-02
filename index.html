@@ -23,10 +23,20 @@
 					<input type="submit" value="SEARCH">
 				</form>
 			</header>
-			<section id="slider" class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout=2000 data-cycle-pager=".pager">
+			<section id="slider" class="cycle-slideshow"
+					data-cycle-fx=scrollHorz
+					data-cycle-timeout=2000
+					data-cycle-pager=".pager"
+					data-cycle-pager-template="<a href='#' class='b-nav'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>"
+					data-cycle-next="#next"
+					data-cycle-prev="#prev">
+				
 				<img src="http://placehold.it/995x317">
    				<img src="http://lorempixel.com/995/317">
+   				<a href="#" id="prev"></a>
+				<a href="#" id="next"></a>
 			</section>
+			
    			<div class="pager"></div>
 			<section id="loremx">
 					<hr class="title-l">
@@ -174,7 +184,7 @@
 				</div>
 				<!-- <div class="clear"></div> -->
 				<div class="ass">
-					<p>Copyright © 2012 · All Rights Reserved <a href="#" target="_blank"><img src="../imgs/mkt_virtual.png" alt="Mkt Virtual"></a></p>
+					<p>Copyright © 2012 · All Rights Reserved <a href="http://www.mktvirtual.com.br" target="_blank"><img src="imgs/mkt_virtual.png" alt="Mkt Virtual"></a></p>
 				</div>
 			</div>
 		</footer>
