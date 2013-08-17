@@ -1,0 +1,346 @@
+/* Autor: Francisco Prado */
+@font-face {
+	font-family: "NotoSansRegular";
+	src: url(../fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+body
+{
+	margin: 45px auto 0;
+	font-family: "NotoSansRegular", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-x;
+}
+
+header, section, footer
+{
+	margin: 0 auto;
+}
+
+body > header
+{
+	height: 90px;
+}
+
+body > footer
+{
+	width: 100%;
+	clear: both;
+	background-color: #282828;
+	margin-top: 50px;
+	padding-top: 20px;
+}
+
+body > footer div:first-child
+{
+	margin: 0 auto;
+}
+
+/* GRID */
+.size100
+{
+	width: 956px;
+	min-height: 20px;
+	clear: both;
+	display: table;
+}
+
+.size50, .size25, .size16, .size75
+{
+	margin: 0 auto;
+	float: left;
+	overflow: hidden;
+}
+
+.size75
+{
+	width: 76%;
+}
+
+.size50
+{
+	width: 50%;
+}
+
+.size25
+{
+	width: 23.8%;
+	margin-right: 15px;
+}
+
+.size16
+{
+	width: 15.3%;
+	margin-right: 15px;
+}
+
+.size75:last-child,
+.size50:last-child,
+.size25:last-child,
+.size16:last-child
+{
+	margin: 0;
+}
+
+/* END GRID */
+
+/* TEXT CLASSES */
+.title-center
+{
+	background-image: url(../images/line.png);
+	background-position: left 6px;
+	background-repeat: no-repeat;
+	text-align: center;
+	text-shadow: 0 1px 1px #999;
+}
+
+.center
+{
+	text-align: center;
+}
+
+input, textarea
+{
+	font-family: "NotoSansRegular", Arial, Helvetica, sans-serif;
+}
+/* END TEXT CLASSES */
+
+/* HEADER NAV */
+#logo, nav, #searchform
+{
+	float: left;
+}
+
+#logo
+{
+	width: 162px;
+}
+
+nav
+{
+	width: 545px;
+}
+
+nav a, nav a:visited
+{
+	width: 100%;
+	text-decoration: none;
+	color: #FFF;
+}
+
+nav ul
+{
+	padding: 0;
+	margin: 0;
+	font-size: 10pt;
+	color: #FFF;
+}
+
+nav ul li
+{
+	float: left;
+	width: 115px;
+	height: 22px;
+	padding-top: 4px;
+	margin-right: 20px;
+	text-align: center;
+	background-color: #2A9F8F;
+	list-style: none;
+	border-radius: 5px 5px 5px;
+	box-shadow: 0 3px 2px #496360;
+}
+
+nav ul li:hover
+{
+	background-color: #3CCCBA;
+}
+
+nav ul li.active
+{
+	background-color: #000;
+	box-shadow: none;
+	padding-top: 3px;
+	margin-top: 3px;
+	height: 23px;
+}
+
+#searchform input[type = text]
+{
+	width: 152px;
+	border-radius: 5px 5px 5px;
+	border: solid 1px #CFCFCF;
+	padding: 3px;
+	box-shadow: inset 0 0 8px #CFCFCF;
+	box-shadow: inset 0 0 8px #CFCFCF;
+}
+
+#searchform input[type = submit]
+{
+	width: 82px;
+	height: 26px;
+	border: none;
+	border-radius: 5px 5px 5px;
+	background-color: #000;
+	color: #FFF;
+}
+
+/* Slides */
+#slideshow
+{
+	display: block;
+	margin-bottom: 20px;
+}
+
+/* Lorem X */
+article p
+{
+	width: 390px;
+}
+
+article .green-text
+{
+	color: #55b2a6;
+}
+/* End Lorem X */
+
+/* Lorem Y and Lorem W */
+.top-text
+{
+	background-color: #000;
+	color: #FFF;
+	margin: 0;
+	padding: 5px 0;
+	font-size: 10pt;
+	text-align: center;
+	width: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.title-small
+{
+	height: 20px;
+}
+
+.title-big
+{
+	text-align: center;
+	height: 40px;
+}
+
+.note
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.description
+{
+	margin: 0;
+	padding: 0;
+	line-height: 10pt;
+	font-size: 8pt;
+}
+
+.more-info
+{
+	text-align: center;
+	background-color: #2A9F8F;
+	list-style: none;
+	border-radius: 5px 5px 5px;
+	box-shadow: 0 3px 2px #496360;
+	margin: 5px 0;
+	padding: 2px 0 3px;
+}
+
+.more-info:hover
+{
+	background-color: #3CCCBA;
+}
+
+.more-info a, .more-info a:visited
+{
+	font-size: 10pt;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.info
+{
+	padding-top: 5px;
+	height: 30px;
+	font-size: 10pt;
+	color: #FFF;
+	background-image: url(../images/info.png);
+	background-repeat: no-repeat;
+}
+
+.views
+{
+	margin-left: 40px;
+}
+
+.date
+{
+	margin-left: 80px;
+}
+/* End Lorem Y and Lorem Z */
+
+/* FOOTER */
+#contactform, #entries
+{
+	margin: 0;
+	color: #FFF;
+}
+
+#contactform form input, #contactform form textarea
+{
+	width: 95%;
+	font-size: 10pt;
+	padding: 0 5px;
+	border: none;
+	border-radius: 5px 5px 5px;
+}
+
+#contactform form input
+{
+	height: 25px;
+	margin-bottom: 4px;
+}
+
+#contactform form input[type = submit]
+{
+	background-color: #D9CB9E;
+	color: #FFF;
+	width: 130px;
+	height: 30px;
+	float: right;
+}
+
+#entries ul
+{
+	margin: 0 0 20px;
+	padding: 0;
+	list-style: none;
+	font-size: 10pt;
+}
+
+#entries .author
+{
+	color: #2a9f90;
+	text-decoration: underline;
+}
+
+#entries .follow
+{
+	text-decoration: underline;
+}
+
+#brand p
+{
+	font-size: 10pt;
+	color: #555;
+}
+/* END FOOTER */
