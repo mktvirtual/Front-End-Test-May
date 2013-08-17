@@ -1,8 +1,4 @@
-/* 
-OBSERVAÇÕES
-Os comentários foram escritos por mim mesmo apesar de estarem inglês
-*/
-
+/* Autor: Francisco Prado */
 @font-face {
 	font-family: "NotoSansRegular";
 	src: url(../fonts/Noto_Sans/NotoSans-Regular.ttf);
@@ -32,6 +28,8 @@ body > footer
 	width: 100%;
 	clear: both;
 	background-color: #282828;
+	margin-top: 50px;
+	padding-top: 20px;
 }
 
 body > footer div:first-child
@@ -102,6 +100,10 @@ body > footer div:first-child
 	text-align: center;
 }
 
+input, textarea
+{
+	font-family: "NotoSansRegular", Arial, Helvetica, sans-serif;
+}
 /* END TEXT CLASSES */
 
 /* HEADER NAV */
@@ -187,6 +189,7 @@ nav ul li.active
 #slideshow
 {
 	display: block;
+	margin-bottom: 20px;
 }
 
 /* Lorem X */
@@ -222,7 +225,7 @@ article .green-text
 
 .title-big
 {
-	text-align: left;
+	text-align: center;
 	height: 40px;
 }
 
@@ -250,6 +253,11 @@ article .green-text
 	box-shadow: 0 3px 2px #496360;
 	margin: 5px 0;
 	padding: 2px 0 3px;
+}
+
+.more-info:hover
+{
+	background-color: #3CCCBA;
 }
 
 .more-info a, .more-info a:visited
@@ -281,20 +289,15 @@ article .green-text
 /* End Lorem Y and Lorem Z */
 
 /* FOOTER */
-#contactform
+#contactform, #entries
 {
 	margin: 0;
-}
-
-#contactform h3, #entries h3
-{
 	color: #FFF;
 }
 
 #contactform form input, #contactform form textarea
 {
 	width: 95%;
-	font-family: "NotoSansRegular", Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	padding: 0 5px;
 	border: none;
@@ -321,12 +324,7 @@ article .green-text
 	margin: 0 0 20px;
 	padding: 0;
 	list-style: none;
-}
-
-#entries ul li
-{
 	font-size: 10pt;
-	color: #FFF;
 }
 
 #entries .author
