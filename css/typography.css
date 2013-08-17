@@ -1,0 +1,16 @@
+@font-face {
+	font-family: "NotoSansRegular";
+	url("../fonts/Noto_Sans/NotoSans-Regular.ttf") format(‘truetype’);
+	font-weight: normal;
+	font-style: normal;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.title
+{
+	font-family: "NotoSansRegular", Arial, Helvetica, sans-serif;
+}
