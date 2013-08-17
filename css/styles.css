@@ -13,6 +13,8 @@ body
 	margin: 45px auto 0;
 	font-family: "NotoSansRegular", Arial, Helvetica, sans-serif;
 	font-size: 12pt;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-x;
 }
 
 header, section, footer
@@ -27,16 +29,21 @@ body > header
 
 body > footer
 {
-	height: 322px;
+	width: 100%;
+	clear: both;
 	background-color: #282828;
+}
+
+body > footer div:first-child
+{
+	margin: 0 auto;
 }
 
 /* GRID */
 .size100
 {
 	width: 956px;
-	min-height: 80px;
-	border: solid 1px;
+	min-height: 20px;
 	clear: both;
 	display: table;
 }
@@ -45,7 +52,6 @@ body > footer
 {
 	margin: 0 auto;
 	float: left;
-	background-color: #FEE;
 	overflow: hidden;
 }
 
@@ -82,10 +88,18 @@ body > footer
 /* END GRID */
 
 /* TEXT CLASSES */
+.title-center
+{
+	background-image: url(../images/line.png);
+	background-position: left 6px;
+	background-repeat: no-repeat;
+	text-align: center;
+	text-shadow: 0 1px 1px #999;
+}
+
 .center
 {
 	text-align: center;
-	text-shadow: 0 1px 1px #999;
 }
 
 /* END TEXT CLASSES */
@@ -176,18 +190,18 @@ nav ul li.active
 }
 
 /* Lorem X */
-#lorem-x p
+article p
 {
 	width: 390px;
 }
 
-#lorem-x .green-text
+article .green-text
 {
 	color: #55b2a6;
 }
 /* End Lorem X */
 
-/* Lorem Y */
+/* Lorem Y and Lorem W */
 .top-text
 {
 	background-color: #000;
@@ -264,8 +278,19 @@ nav ul li.active
 {
 	margin-left: 80px;
 }
+/* End Lorem Y and Lorem Z */
 
 /* FOOTER */
+#contactform
+{
+	margin: 0;
+}
+
+#contactform h3, #entries h3
+{
+	color: #FFF;
+}
+
 #contactform form input, #contactform form textarea
 {
 	width: 95%;
@@ -314,3 +339,10 @@ nav ul li.active
 {
 	text-decoration: underline;
 }
+
+#brand p
+{
+	font-size: 10pt;
+	color: #555;
+}
+/* END FOOTER */
