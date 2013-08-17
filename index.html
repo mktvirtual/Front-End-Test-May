@@ -1,49 +1,82 @@
 <!doctype html>
-<html lang="pt">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Mkt Virtual</title>
-	<link href="css/typography.css" rel="stylesheet" />
-	<link href="css/styles.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/slides.css" />
 </head>
 <body>
-	<header id="top-header">
-		<a href="."><img id="logo" src="images/logo-mktvirtual.png" alt="MKT Virtual" /></a>
+	<header class="size100">
+		<div id="logo">
+			<a href="#">
+				<img src="images/logo-mktvirtual.png" alt="Mkt Virtual" />
+			</a>
+		</div>
 		<nav>
 			<ul>
-				<li>HOME PAGE</li>
-				<li>PORTFOLIO</li>
-				<li>BLOG</li>
-				<li>ABOUT</li>
+				<li class="active"><a href="#">HOME PAGE</a></li>
+				<li><a href="#">PORTFOLIO</a></li>
+				<li><a href="#">BLOG</a></li>
+				<li><a href="#">ABOUT</a></li>
 			</ul>
 		</nav>
-		<form id="search" name="search" action="." method="post">
-			<input placeholder="Search for something..." type="text" />
-			<input type="submit" name="search-button" value="SEARCH" />
-		</form>
+		<div id="searchform">
+			<form action="#" method="post">
+				<input type="text" name="search" value="" placeholder="Search for something..." />
+				<input type="submit" name="submit-button" value="ENVIAR" />
+			</form>
+		</div>
 	</header>
-	<section>
-		<article id="slideshow">
-			<div class="slides-container">
+	
+	<section id="slideshow" class="size100">
+		<div class="slides-container">
 				<div id="slides">
 					<a class="slidesjs-previous slidesjs-navigation" href="#" title="Anterior">Anterior</a>
 					<a class="slidesjs-next slidesjs-navigation" href="#" title="Próxima">Próxima</a>
-					<img src="images/slides/image1.jpg" alt="Image 1" />
-					<img src="images/slides/image1.jpg" alt="Image 2" />
-					<img src="images/slides/image1.jpg" alt="Image 3" />
+					<img src="images/slides/slide1.jpg" alt="Image 1" />
+					<img src="images/slides/slide1.jpg" alt="Image 2" />
+					<img src="images/slides/slide1.jpg" alt="Image 3" />
 				</div>
 		  </div>
+	</section>
+	
+	<section id="lorem-x" class="size100">
+		<header>
+			<h2 class="center">LOREM X</h2>
+		</header>
+		<article class="size50">
+			<h3>Lorem</h3>
+			<p><span class="green-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue nisl, eu malesuada ipsum.</span> Aliquam eget nisi id lorem luctus viverra. Morbi sed ligula in odio elementum laoreet.</p>
+			<p>Ut tincidunt, erat et dictum rhoncus, mi sit nunc mollis orci, at luctus magna tortor sit amet nulla. Mauris mi erat, interdum rhoncus vehicula in, fermentum id dui. Suspendisse odio nibh, condimentum quis gravida ut, dapibus sed ipsum.</p>
+			<p>Vivamus a aliquet purus. <span class="green-text">Sed justo augue, convallis sed fringilla in, rhoncus quis erat.</span> Donec utis sit varius auctor urna pellentesque leo scelerisque nec.</p>
 		</article>
-		<article>
-			<header>
-				<h2 class="title center">LOREM X</h2>
-			</header>
-			<aside>a</aside>
-			<aside>b</aside>
+		<article class="size50">
+			<h3>Ipsum</h3>
+			<p><span class="green-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue nisl, eu malesuada ipsum.</span> Aliquam eget nisi id lorem luctus viverra. Morbi sed ligula in odio elementum laoreet.</p>
+			<p>Ut tincidunt, erat et dictum rhoncus, mi sit nunc mollis orci, at luctus magna tortor sit amet nulla. Mauris mi erat, interdum rhoncus vehicula in, fermentum id dui. Suspendisse odio nibh, condimentum quis gravida ut, dapibus sed ipsum.</p>
+			<p>Vivamus a aliquet purus. <span class="green-text">Sed justo augue, convallis sed fringilla in, rhoncus quis erat.</span> Donec utis sit varius auctor urna pellentesque leo scelerisque nec.</p>
 		</article>
 	</section>
-	<footer>
+	
+	<section id="lorem-y" class="size100">
+		<header>
+			<h2 class="center">LOREM Y</h2>
+		</header>
+		<article class="size50">a</article>
+	</section>
+	
+	<section id="lorem-z" class="size100">
+		<header>
+			<h2 class="center">LOREM Z</h2>
+		</header>
+		<article class="size16">a</article>
+	</section>
+	
+	<footer class="size100">
+		<article class="size25">FOOTER</article>
 	</footer>
+	
 	<script src="js/jquery-2.0.3.min.js"></script>
 	<script src="js/jquery.slides.min.js"></script>
 	<script src="js/main.js"></script>
